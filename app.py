@@ -25,9 +25,5 @@ if st.button('Predict'):
   prediction = model.predict(input_data)
   st.success(f'The predicted Iris species is: {prediction[0]}')
 
-%%writefile requirements.txt
-streamlit
-pandas
-scikit-learn
-joblib
-numpy
+
+
